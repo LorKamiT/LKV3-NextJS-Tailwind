@@ -31,8 +31,12 @@ export default function Navbar() {
             <Link
               key={link.label}
               href={link.href}
-              className={`
-              ${pathname === link.href ? " text-sky-500 dark:text-sky-300" : ""}
+              className={` hover:text-sky-200 hover:scale-110 transition-all
+              ${
+                pathname === link.href
+                  ? " text-sky-500 dark:text-sky-300 scale-110"
+                  : ""
+              }
             `}
             >
               <p>{link.label}</p>
