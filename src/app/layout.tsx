@@ -5,13 +5,7 @@ import clsx from "clsx";
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
-import {
-  fontSans,
-  fontMono,
-  fontPixel,
-  fontNoto,
-  fontCinzel,
-} from "@/config/fonts";
+import { fontSans, fontMono, fontPixel, fontCinzel } from "@/config/fonts";
 import Navbar from "../components/navbar";
 
 export const metadata: Metadata = {
