@@ -26,7 +26,7 @@ export default function Navbar() {
             className=" object-contain"
           />
         </div>
-        <div className="flex w-[90%] h-full justify-around items-center uppercase font-pixel">
+        <div className="flex w-[90%] md:w-full h-full justify-around items-center uppercase font-pixel">
           {siteConfig.navItems.map((link) => (
             <Link
               key={link.label}
@@ -39,7 +39,7 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="Iconos flex flex-row gap-4 h-full w-[20%] justify-center items-center text-xl">
+        <div className="Iconos hidden sm:flex flex-row gap-4 h-full w-[20%] justify-center items-center text-xl">
           <Link
             aria-label="Discord"
             href={siteConfig.links.discord}
