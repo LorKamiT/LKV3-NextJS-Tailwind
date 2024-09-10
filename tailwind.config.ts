@@ -14,6 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         pixel: ["var(--font-pixel)", "sans-serif"],
+        cinzel: ["var(--font-cinzel)", "sans-serif"],
       },
     },
   },

@@ -2,6 +2,7 @@ import {
   Fira_Code as FontMono,
   Inter as FontSans,
   Pixelify_Sans as FontPixel,
+  Cinzel as FontCinzel,
 } from "next/font/google";
 
 export const fontSans = FontSans({
@@ -17,4 +18,9 @@ export const fontMono = FontMono({
 export const fontPixel = FontPixel({
   subsets: ["latin"],
   variable: "--font-pixel",
+});
+
+export const fontCinzel = FontCinzel({
+  subsets: ["latin"],
+  variable: "--font-cinzel",
 });
